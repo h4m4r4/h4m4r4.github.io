@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+    <style>
+      @media (max-width: 575.98px) { 
+        body {
+          display: flex;
+        } 
+       }
+      @media (max-width: 767.98px) { 
+        body{
+          display: flex;
+        }
+       }
+      @media (max-width: 1119.98px) { 
+        body{
+          display: flex;
+        }
+      }
+      @media (max-width: 1399.98px) { 
+        body{
+          display: flex;
+        }
+       }
+    </style>
+  <body>
+  <div class="outline-border-login">
+    <!-- NAVBAR -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-secondary-subtle fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo2_50^2.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item gap-antar-li">
+                    <a class="nav-link active " aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item gap-antar-li">
+                    <a class="nav-link " href="#reservasi">Reservasi</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Type
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="#gold suites">Gold Suites</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#silver suites">Silver Suites</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#bronze suites">Bronze Suites</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#map">location</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#feedback">feedback</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-success" style="background-color:  rgb(250, 150, 0);"><a class="warna-link-login" href="login_hotel.html">Login</a></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- HOME/CAROUSEL -->
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner outline_border_content">
+          <div class="carousel-item active carousel_container" data-bs-interval="5000">
+            <img src="img/slider1_728x486.jpg" class="d-block w-100" alt="gambar">
+            <div class="carousel-caption d-none d-md-block bg-light opacity-75">
+              <h5 class="warna-text-slider">Nyaman untuk keluarga</h5>
+              <p class="warna-text-slider">Liburan bersama keluarga dengan tempat nyaman dan bersih</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel_container" data-bs-interval="5000">
+            <img src="img/slider2_729x486.jpg" class="d-block w-100" alt="gambar">
+            <div class="carousel-caption d-none d-md-block bg-light opacity-75">
+              <h5 class="warna-text-slider">Ruangan nyaman dengan desain elegan</h5>
+              <p class="warna-text-slider">Tidur dengan bed yang luas dan dekorasi yang memanjakan mata</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel_container" data-bs-interval="5000">
+            <img src="img/slider3_750x486.jpg" class="d-block w-100" alt="gambar">
+            <div class="carousel-caption d-none d-md-block bg-light opacity-75">
+              <h5 class="warna-text-slider">Makanan yang bervariasi</h5>
+              <p class="warna-text-slider">Request makanan sesuai keinginan,baik makanan moderen sampai masakan rumahan</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="box_garis"><h1>Reservasi</h1><hr></div>
+    <!-- RESERVASI/CARD -->
+    <section id="reservasi">
+      <div class="card_container_reservasi outline_border_content">
+        <div class="card" data-aos="zoom-in-right">
+          <img src="img/gold_room_card.jpg" class="card-img-top" alt="gold room">
+          <div class="card-body">
+            <h5 class="card-title">Gold Room</h5>
+            <p class="card-text">Rp5.000.000/malam</p>
+            <a href="https://asia.ac.id/" class="btn btn-primary button_reservasi">reservasi</a>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in-up">
+          <img src="img/silver_room_card.jpg" class="card-img-top" alt="silver room">
+          <div class="card-body">
+            <h5 class="card-title">Silver Room</h5>
+            <p class="card-text">Rp3.000.000/malam</p>
+            <a href="https://asia.ac.id/" class="btn btn-primary button_reservasi">reservasi</a>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in-left">
+          <img src="img/bronze_room_card.jpg" class="card-img-top" alt="bronze room">
+          <div class="card-body">
+            <h5 class="card-title">Bronze Room</h5>
+            <p class="card-text">Rp1.500.000/malam</p>
+            <a href="https://asia.ac.id/" class="btn btn-primary button_reservasi">reservasi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="box_garis"><h1>Type</h1><hr></div>
+    <!-- TYPE ROOM -->
+    <section id="type">
+        <div class="jarakantar_content_type">Gold Suites</div>
+        <div id="gold suites" class="container_type">
+          <div class="image_type">
+            <img class="ukuran_image_type" src="img/gold_room.jpg" alt="gold suites">
+          </div>
+          <div class="type_content">
+              <ul>
+                <h2>Gold Suites</h2>
+                <li>Bed Super King Size</li>
+                <li>TV cable</li>
+                <li>Urban Vision Suites</li>
+                <li>Spa room pribadi</li>
+                <li>Desain Modern</li>
+                <li>Mini pool</li>
+                <li>2 toilet</li>
+              </ul>
+          </div>
+        </div>
+        <div class="jarakantar_content_type">Silver Suites</div>
+        <div id="silver suites" class="container_type">
+          <div class="image_type">
+            <img class="ukuran_image_type" src="img/silver_room.jpg" alt="silver suites">
+          </div>
+          <div class="type_content">
+              <ul>
+                <h2>Silver Suites</h2>
+                <li>Double bed</li>
+                <li>Romantis dan Artistik</li>
+                <li>TV cable</li>
+                <li>kamar mandi dan toilet</li>
+              </ul>
+          </div>
+        </div>
+        <div class="jarakantar_content_type">Bronze Suites</div>
+        <div id="bronze suites" class="container_type" >
+          <div class="image_type">
+            <img class="ukuran_image_type" src="img/bronze_room.jpg" alt="bronze suites">
+          </div>
+          <div class="type_content">
+              <ul>
+                <h2>Bronze Suites</h2>
+                <li>Double bed</li>
+                <li>Minimalis</li>
+                <li>Simple dan clean</li>
+                <li>kamar mandi dan toilet</li>
+              </ul>
+          </div>
+        </div>
+    </section>
+    <div class="box_garis"><h1>Location</h1><hr></div>
+    <section id="map">
+      <div class="outline_border_content map">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.54310965807!2d112.6344329490686!3d-7.933054784403349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629c92437ad77%3A0xc0b90ba04f5797d1!2sAtria%20Hotel%20Malang!5e0!3m2!1sid!2sid!4v1705716656891!5m2!1sid!2sid" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <div class="box_garis"><h1>feedback</h1><hr></div>
+    <section id="feedback">
+      <div class="container_type">
+        <div class="image_type">
+            <img class="ukuran_image_type" src="img/logo2_500^2.png" alt="logo">
+        </div>
+        <div class="login-container-base"> 
+            <div class="login-container">
+                <h2 class="h2-login">feedback</h2>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Nomor HP" required>
+                    <textarea id="pesan" name="pesan" rows="6" cols="40" placeholder="Give us feedback"></textarea>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

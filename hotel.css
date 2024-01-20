@@ -1,0 +1,163 @@
+/* CSS untuk login */
+.login-container-base{
+    background-color: #FFFFF0;
+    flex:1;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 20px;
+    border: none;
+    border-radius: 5px ;
+}
+.h2-login{
+    color: rgb(250, 150, 0);
+}
+.outline-border-login{
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: 5px solid rgb(250, 150, 0) ;
+}
+.login-container {
+    box-shadow: 5px 5px  rgb(250, 150, 0);
+    background: brown;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login-container textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login-container button {
+    background-color:rgb(250, 150, 0);
+    color: #E6E6FA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  /* end of CSS untuk login */
+
+  /* CSS index hotel utama */
+.navbar_menu_button {
+    background-color: brown;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.warna-link-login{
+    font-style: bold;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.carousel_container {
+    max-width: 100%; 
+    margin: auto;
+    overflow: hidden;
+  }
+.warna-text-slider{
+    font-style: arial bold;
+    font-size: 25px;
+    color: black;
+}
+.outline_border_content{
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: 10px solid #e2e3e5 ;
+}
+a:hover{
+    color: red;
+}
+.card_container_reservasi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+body{
+    background-color:#e2e3e5 ;
+}
+.box_garis{
+    display: block;
+    padding: 20px;
+    background-color: rgb(250, 150, 0);
+    height: auto;
+}
+.box_garis hr{
+    border-top: 10px solid brown;
+    border-radius: 5px;
+}
+.button_reservasi {
+    background-color:#DEB887;
+    color: brown;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container_type{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image_type{
+    width: 50%;
+}
+.type_content{
+    margin: 20px;
+    border: none;
+    flex: 1;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color:#ced4e1 ;
+    border-radius: 10px;
+}
+.ukuran_image_type{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.jarakantar_content_type{
+    display: block;
+    height: 30px;
+    background-color: #DEB887;
+    color: brown;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+.type_content h2{
+    color: brown;
+    list-style-type: none;
+}
+.type_content li{
+    color: brown;
+    font-size: 20px;
+    
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
